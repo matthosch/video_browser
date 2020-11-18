@@ -1,7 +1,7 @@
 # React Video Browser
 Video browser for Youtube. Built using [Reactjs](https://reactjs.org/), [Semantic-UI](https://semantic-ui.com/), & the [Youtube Data API](https://developers.google.com/youtube/v3). Based on the [Modern React with Redux](https://www.udemy.com/course/react-redux/) project by Stephen Grider.
 
-![Screen Shot 2020-11-18 at 2 48 58 PM](https://user-images.githubusercontent.com/12053461/99586335-36c6a080-29ad-11eb-8d35-f8eb50904d3c.png)
+![Screen Shot 2020-11-18 at 2 51 25 PM](https://user-images.githubusercontent.com/12053461/99586585-8dcc7580-29ad-11eb-99b6-c1c8c172882a.png)
 
 ## Available Scripts
 
