@@ -1,5 +1,5 @@
 import React from "react";
-import { html, safeHtml } from "common-tags";
+import { htmlDecode } from "../utils/htmlDecode";
 
 const VideoDetail = ({ video }) => {
   if (!video) {
@@ -14,7 +14,7 @@ const VideoDetail = ({ video }) => {
         <iframe src={videoSrc} title="video player" />
       </div>
       <div className="ui segment">
-        {html`<h4 className="ui header">Hello</h4>`}
+        <h4 className="ui header">{htmlDecode(video.snippet.title)}</h4>
         <p>{video.snippet.description}</p>
       </div>
     </div>

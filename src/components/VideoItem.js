@@ -1,5 +1,6 @@
 import React from "react";
 import "./VideoItem.css";
+import { htmlDecode } from "../utils/htmlDecode";
 
 const VideoItem = ({ video, onVideoSelect }) => {
   return (
@@ -10,7 +11,7 @@ const VideoItem = ({ video, onVideoSelect }) => {
         alt={video.snippet.title}
       />
       <div className="content">
-        <div className="header">{video.snippet.title}</div>
+        <div className="header">{htmlDecode(video.snippet.title)}</div>
       </div>
     </div>
   );
